@@ -1,0 +1,117 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+.container-person {
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.card-person {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, 0.5);
+}
+
+.profile-picture {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto 20px;
+}
+
+.profile-picture img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.dp{
+  position: relative;
+}
+#uploadicon{
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  bottom: 0;
+  right: 40%;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(54, 51, 51);
+  color: white;
+}
+.name {
+  font-size: 24px;
+  margin: 0;
+}
+
+.username {
+  font-size: 18px;
+  color: #777;
+  margin: 10px 0;
+}
+
+span{
+  font-size: large;
+}
+
+.logout-button {
+  display: inline-flex;
+  padding: 10px 20px;
+  margin-top: 20px;
+  margin-left: 75%;
+  background-color: #f30d19;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.logout-button:hover {
+  background-color: #b3131b;
+}
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5%;
+  padding-left: 6%;
+  align-items: center;
+}
+.form-layout{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+input{
+  /* background-color: red; */
+  margin: 10px;
+  border-radius: 5px;
+}
+.filecaption{
+  padding-left: 10px;
+}
+.file{
+  padding-left: 5px;
+  margin-left: 100px;
+}
+.upload-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #07c14e;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+.upload-button:hover {
+  background-color: #07a955;
+}
